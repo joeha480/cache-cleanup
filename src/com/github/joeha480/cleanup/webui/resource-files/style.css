@@ -1,0 +1,41 @@
+body {
+	color: white;
+	font-family: sans-serif;
+}
+
+body > div {
+	background-color: #136;
+	border-style: solid;
+	border-width: 1px;
+	padding: 3em;
+	min-height: 400px;
+}
+
+span.menu + span.menu::before {
+	content: " | ";
+}
+
+a:active, a {
+	color: white;
+}
+
+.console {
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+	height: 400px;
+	overflow: scroll;
+}
+
+.service {
+	padding: 1em;
+	margin-top: 1em;
+	background-color: grey;
+}
+
+.size {
+	font-family: monospace;
+	font-weight: bold;
+	margin-left: 1em;
+	float: right;
+}

@@ -1,0 +1,2 @@
+com.github.joeha480.cleanup.impl.gradle.GradleWrapperCleanupService
+com.github.joeha480.cleanup.impl.xcode.XCodeCleanupService
